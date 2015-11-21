@@ -11,7 +11,7 @@
 
 static const NSString *baseURL = @"http://robot.boulderfoodrescue.org";
 
-static const NSString *tokenDefaultsKey = @"com.BFR.logintokenkey"
+static const NSString *tokenDefaultsKey = @"com.BFR.logintokenkey";
 
 @implementation WebService
 
@@ -27,7 +27,11 @@ static const NSString *tokenDefaultsKey = @"com.BFR.logintokenkey"
     }];
 }
 
-+ (void) listRoutesForCurrentUserWithCopmletion{
++ (void) listRoutesForCurrentUserWithCopmletion:(void (^)(NSError *error, NSArray *shifts))copmletion{
+    
+}
+
++ (void) getInfoForRouteWithCompletion:(void (^)(NSError *error, NSArray *locations))copmletion{
     
 }
 
