@@ -15,6 +15,8 @@
 		A01C9B721C00D1D6007FE572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01C9B701C00D1D6007FE572 /* LaunchScreen.storyboard */; };
 		A01C9B7D1C00D1D6007FE572 /* MobileRobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A01C9B7C1C00D1D6007FE572 /* MobileRobotTests.m */; };
 		A01C9B881C00D1D6007FE572 /* MobileRobotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A01C9B871C00D1D6007FE572 /* MobileRobotUITests.m */; };
+		A0971E0F1C00DAC500D67E13 /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = A0971E0E1C00DAC500D67E13 /* WebService.m */; };
+		A0971E141C00E5FC00D67E13 /* Shift.m in Sources */ = {isa = PBXBuildFile; fileRef = A0971E131C00E5FC00D67E13 /* Shift.m */; };
 		DEE8975EC74D2D46B2CFE02C /* libPods-MobileRobot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 815367341AC0379DD936975C /* libPods-MobileRobot.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,10 @@
 		A01C9B831C00D1D6007FE572 /* MobileRobotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileRobotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01C9B871C00D1D6007FE572 /* MobileRobotUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileRobotUITests.m; sourceTree = "<group>"; };
 		A01C9B891C00D1D6007FE572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0971E0D1C00DAC500D67E13 /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		A0971E0E1C00DAC500D67E13 /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
+		A0971E121C00E5FC00D67E13 /* Shift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shift.h; sourceTree = "<group>"; };
+		A0971E131C00E5FC00D67E13 /* Shift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shift.m; sourceTree = "<group>"; };
 		B97C4D2AF5D97BA387BB63F1 /* Pods-MobileRobot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileRobot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileRobot/Pods-MobileRobot.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,8 +131,11 @@
 		A01C9B611C00D1D6007FE572 /* MobileRobot */ = {
 			isa = PBXGroup;
 			children = (
+				A0971E111C00E5E900D67E13 /* Models */,
 				A01C9B651C00D1D6007FE572 /* AppDelegate.h */,
 				A01C9B661C00D1D6007FE572 /* AppDelegate.m */,
+				A0971E0D1C00DAC500D67E13 /* WebService.h */,
+				A0971E0E1C00DAC500D67E13 /* WebService.m */,
 				A01C9B681C00D1D6007FE572 /* LoginViewController.h */,
 				A01C9B691C00D1D6007FE572 /* LoginViewController.m */,
 				A01C9B6B1C00D1D6007FE572 /* Main.storyboard */,
@@ -162,6 +171,15 @@
 				A01C9B891C00D1D6007FE572 /* Info.plist */,
 			);
 			path = MobileRobotUITests;
+			sourceTree = "<group>";
+		};
+		A0971E111C00E5E900D67E13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A0971E121C00E5FC00D67E13 /* Shift.h */,
+				A0971E131C00E5FC00D67E13 /* Shift.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,7 +365,9 @@
 			files = (
 				A01C9B6A1C00D1D6007FE572 /* LoginViewController.m in Sources */,
 				A01C9B671C00D1D6007FE572 /* AppDelegate.m in Sources */,
+				A0971E0F1C00DAC500D67E13 /* WebService.m in Sources */,
 				A01C9B641C00D1D6007FE572 /* main.m in Sources */,
+				A0971E141C00E5FC00D67E13 /* Shift.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
